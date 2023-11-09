@@ -5,13 +5,13 @@ public class AssetManager {
             //make list
             ArrayList<Asset> assets = new ArrayList<>();
             assets.add(new House("My House", "2005-01-30", 200000.0,
-                    "1952 Jack Parsons Way", 1, 2000, 6000));
+                    "1952 Jack Parsons Way", 1, 2000, 5000));
             assets.add(new House("Vacation Home", "2017-05-15", 300000.0,
-                    "1950 Hubbard Way", 2, 2500, 8000));
+                    "1950 Hubbard Way", 2, 2500, 9000));
             assets.add(new Vehicle("Tom Cruise's Truck", "2022-06-09", 35000.0,
-                    "Chevy Silverado", 2022, 12000));
+                    "Chevy Silverado", 2022, 17000));
             assets.add(new Vehicle("My Car", "2016-04-20", 25000.0,
-                    "Toyota Solara", 1999, 3000));
+                    "Toyota Solara", 1999, 13000));
             assets.add(new Cash("Money I'm Hiding from the IRS", "2023-11-09", 2.00));
             //assets 'n stuff
             for (Asset asset : assets) {
